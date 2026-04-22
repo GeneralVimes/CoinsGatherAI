@@ -53,4 +53,6 @@ Create new agents, modify config to inculde them into the tournament and to test
 
 In the beginning of May we will run a cross-institutional tournament for the students of XAMK (Finland) and ETI (Ukraine) with all the submitted AIs. This is going to be a spectacular event :)
 
+![alt text](GoinsGather6.gif)
+
 Good luck!
