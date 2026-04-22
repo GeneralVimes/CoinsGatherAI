@@ -36,3 +36,19 @@ with the lines
 			let id = Math.floor(Math.random()*situationOb.items.length)
 			dx = situationOb.items[id].dx
 			dy = situationOb.items[id].dy
+
+# Create a new AI, which should try to move to the closes coin
+
+You'll need to loop through situationOb.items and find the closes one
+
+# Think of further improvements of AI and produce new versions
+
+Some ideas to think:
+- for the situation when no coins are visible, is there a better strategy than random movement?
+- can we use the information about visible units to improve the AI (it is stored in situationOb.units)
+
+Create new agents, modify config to inculde them into the tournament and to test
+
+In the beginning of May we will run a cross-institutional tournament for the students of XAMK (Finland) and ETI (Ukraine) with all the submitted AIs. This is going to be a spectacular event :)
+
+Good luck!
