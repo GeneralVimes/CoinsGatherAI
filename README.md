@@ -30,13 +30,16 @@ You can add new lines to the botsInTournament array (just make sure to use diffe
 As you see, CoinsChaserAI most of the time goes to the top-right direction. This is because the game world populates the list of the visible items starting from the top-right corner.
 
 Create a new AI class in ai.js, name it RandomCoinsChaserAI. You can copy-paste the CoinsChaserAI code. We will now make it chase the radomly selected coin instead of the first one in the list. For this change the lines:
+```javascript
 			dx = situationOb.items[0].dx
 			dy = situationOb.items[0].dy
+```
 with the lines
+```javascript
 			let id = Math.floor(Math.random()*situationOb.items.length)
 			dx = situationOb.items[id].dx
 			dy = situationOb.items[id].dy
-
+```
 # Create a new AI, which should try to move to the closes coin
 
 You'll need to loop through situationOb.items and find the closes one
