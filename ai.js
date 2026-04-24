@@ -8,6 +8,7 @@ class BasicAI
 	/*
 	AI agent 2 times per second calls the function makeMovementDecision
 	The world builds the visible situation around the agent. 
+	ownPosChange - object {dx, dy} with own change of coordinates from the previous AI call
 	situationOb.items - array of objects {dx, dy} with relative positions of visible coins
 	situationOb.units - array of objects {isAlly, dx, dy} with relative positions of visible units and bool is they are from the same team as myself
 	output: object {dx, dy} of a relative position defining where to move
