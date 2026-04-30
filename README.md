@@ -56,3 +56,5 @@ In the beginning of May we will run a cross-institutional tournament for the stu
 ![alt text](GoinsGather6.gif)
 
 Good luck!
+
+Please, submit your agent via this form: [https://forms.gle/gfYygXioazSZKbgMA](https://forms.gle/gfYygXioazSZKbgMA)
